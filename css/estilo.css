@@ -97,7 +97,7 @@ a {
 
 /*RESPONSIVIDADE MOBILE 768PX*/
 
-@media (max-width: 768px) {
+@media (max-width: 680px) {
     #btn-mobile {
         display: block;
     }
