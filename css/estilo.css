@@ -17,7 +17,7 @@ a {
 /*HEADER DESKTOP*/
 
 #nav {
-    margin-right: 108px;
+    margin-right: 10%;
 }
 
 #nav a:hover {
@@ -25,7 +25,7 @@ a {
 }
 
 #logo {
-    margin-left: 115px;
+    margin-left: 10%;
     font-size: 1.6rem;
     font-weight: bold;
 }
@@ -156,6 +156,12 @@ a {
         transform: rotate(-135deg);
         color: rgb(165, 0, 0);
         top: -7px;
+    }
+    #nav {
+        margin-right: 3%;
+    }
+    #logo {
+        margin-left: 3%;
     }
     .container {
         border: 1px solid blue;
