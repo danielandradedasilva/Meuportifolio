@@ -9,10 +9,11 @@
 
 body {
     font-family: 'Teko', sans-serif;
+    background: #2b2b2b;
 }
 
 a {
-    color: black;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -39,7 +40,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(255, 158, 31);
+    background: rgb(14, 14, 14);
 }
 
 #menu {
@@ -68,21 +69,32 @@ a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 20px;
+    font-size: 1.6rem;
+    color: #fff;
+    font-style: italic;
 }
 
 .conteudo1,
 .conteudo2 {
-    margin-top: 5px;
+    display: flex;
+    margin-top: -20px;
     width: 50%;
-    height: 150px;
-    background: rgb(0, 153, 255);
-    border: 1px solid;
+    height: 400px;
+    justify-content: center;
+    background: #00000088;
+}
+
+.conteudo1 span {
+    margin-top: 50px;
+}
+
+.conteudo2 img {
+    margin-top: 100px;
 }
 
 .conteudo3 {
-    margin-top: 5px;
     width: 100%;
-    height: 150px;
+    height: 400px;
     background: rgb(0, 153, 255);
     border: 1px solid;
 }
@@ -90,7 +102,7 @@ a {
 .conteudo4,
 .conteudo5,
 .conteudo6 {
-    margin-top: 5px;
+    margin-top: 0px;
     width: 33.3%;
     height: 150px;
     background: rgb(153, 0, 0);
@@ -153,7 +165,7 @@ a {
         height: 0;
         top: 70px;
         right: 0;
-        background: rgb(255, 158, 31);
+        background: rgb(14, 14, 14);
         transition: .6s;
         flex-direction: column;
         align-items: center;
@@ -178,6 +190,7 @@ a {
         display: block;
         border-top: 2px solid;
         width: 20px;
+        color: #fff;
     }
     #hamburguer::after,
     #hamburguer::before {
@@ -195,7 +208,7 @@ a {
     }
     #nav.active #hamburguer::before {
         transform: rotate(135deg);
-        color: rgb(165, 0, 0);
+        color: rgb(255, 0, 0);
     }
     #nav.active #hamburguer::after {
         transform: rotate(-135deg);
